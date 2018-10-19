@@ -64,9 +64,9 @@ let uniq = (array) => {
 // map() works a lot like each(), but in addition to running the operation on all
 // the members, it also maintains an array of results.
 //
-// map({firstName: 'Kayla', lastName: 'Handy', age: 29}, (item) => {
-//    return item[key]
-// }) --> ['Kayla', 'Handy', 29]
+// map([‘Kayla’, ‘Kristen’, ‘Yash’], (name) => {
+//    return name + ‘!’
+// }) --> [‘Kayla!’, ‘Kristen!’, ‘Yash!’]
 let map = (collection, iterator) => {
 };
 
